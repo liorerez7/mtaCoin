@@ -3,6 +3,9 @@ This project is a simplified blockchain simulation involving a **multi-process**
 It was developed on **Linux** through Ubuntu on VMware.
 The miner and server processes communicate via named pipes (FIFO) to mine and verify blocks in the blockchain.
 
+This project simulates a basic blockchain network for educational purposes, focusing on multi-process inter-process communication, block mining, and validation on a Linux system.
+
+
 ## Components:
 
 ### 1. Miner:
@@ -27,10 +30,6 @@ Both miner and server are Dockerized using Ubuntu-based Linux images, with depen
 2. Docker
 3. Linux (Ubuntu)
 4. Blockchain (Proof of Work)
-
-
-This project simulates a basic blockchain network for educational purposes, focusing on multi-process inter-process communication, block mining, and validation on a Linux system.
-
 
 
 ## How to run: 
