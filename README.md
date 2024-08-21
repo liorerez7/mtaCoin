@@ -35,9 +35,10 @@ Both miner and server are Dockerized using Ubuntu-based Linux images, with depen
 ## How to run: 
 
 Steps to run:
+
 type in the terminal:
-1. chmod 766 runningMtaCoin.sh
-2. ./runningMtaCoin.sh
+``chmod 766 runningMtaCoin.sh
+./runningMtaCoin.sh``
 
 ### Defualt run:
 
