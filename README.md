@@ -6,15 +6,15 @@ This project is a simplified blockchain simulation involving a **multi-process**
 
 ### 1. Miner:
   
-    1. Reads configuration (difficulty) and connects to the server via named pipes.
-    2. Mines new blocks by incrementing nonce and calculating hash based on difficulty.
-    3. Sends mined blocks to the server for verification.
+    - Reads configuration (difficulty) and connects to the server via named pipes.
+    - Mines new blocks by incrementing nonce and calculating hash based on difficulty.
+    - Sends mined blocks to the server for verification.
 
 ### 2. Server:
 
-    1. Initializes the blockchain with a genesis block and manages block validation.
-    2. Verifies mined blocks using Proof of Work (PoW) and adds valid blocks to the blockchain.
-    3. Broadcasts new blocks to all miners.
+    - Initializes the blockchain with a genesis block and manages block validation.
+    - Verifies mined blocks using Proof of Work (PoW) and adds valid blocks to the blockchain.
+    - Broadcasts new blocks to all miners.
 
 ## Docker & Linux Integration:
 
@@ -33,6 +33,7 @@ Both miner and server are Dockerized using Ubuntu-based Linux images, with depen
 To run the program, follow these steps:
 1. Set executable permissions for the script:
 ``chmod 766 runningMtaCoin.sh``
+
 2.Execute the script:
 ``./runningMtaCoin.sh``
 
