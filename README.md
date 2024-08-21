@@ -1,9 +1,5 @@
 # Project Summary: MTACoin Miner-Server System
-This project is a simplified blockchain simulation involving a **multi-process** miner-server system written in C++.
-It was developed on **Linux** through Ubuntu on VMware.
-The miner and server processes communicate via named pipes (FIFO) to mine and verify blocks in the blockchain.
-
-This project simulates a basic blockchain network for educational purposes, focusing on multi-process inter-process communication, block mining, and validation on a Linux system.
+This project is a simplified blockchain simulation involving a **multi-process** miner-server system written in C++. Developed on **Linux** via Ubuntu on VMware, it simulates a basic blockchain network for educational purposes, focusing on multi-process inter-process communication, block mining, and validation.
 
 
 ## Components:
@@ -26,22 +22,21 @@ Both miner and server are Dockerized using Ubuntu-based Linux images, with depen
 
 ## Key Technologies:
 
-1. Named pipes (FIFO)
-2. Docker
-3. Linux (Ubuntu)
-4. Blockchain (Proof of Work)
+- Named pipes (FIFO)
+- Docker
+- Linux (Ubuntu)
+- Blockchain (Proof of Work)
 
 
 ## How to run: 
 
-Steps to run:
-
-type in the terminal:
-
+To run the program, follow these steps:
+1. Set executable permissions for the script:
 ``chmod 766 runningMtaCoin.sh``
+2.Execute the script:
 ``./runningMtaCoin.sh``
 
-### Defualt run:
+### Default run:
 
 A server process with 3 miners
 
