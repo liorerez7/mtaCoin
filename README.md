@@ -31,10 +31,11 @@ Both miner and server are Dockerized using Ubuntu-based Linux images, with depen
 ## How to run: 
 
 To run the program, follow these steps:
+
 1. Set executable permissions for the script:
 ``chmod 766 runningMtaCoin.sh``
 
-2.Execute the script:
+2. Execute the script:
 ``./runningMtaCoin.sh``
 
 ### Default run:
