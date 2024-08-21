@@ -1,3 +1,4 @@
+## Project Summary: MTACoin Miner-Server System
 This project is a simplified blockchain simulation involving a multi-process miner-server system written in C++.
 It was developed on Linux through Ubuntu on VMware.
 The miner and server processes communicate via named pipes (FIFO) to mine and verify blocks in the blockchain.
